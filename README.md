@@ -41,5 +41,55 @@ Este proyecto representa mis primeros pasos en la programación orientada a obje
 
 Se han implementado soluciones creativas para la gestión de tipos de datos y la integridad referencial en un entorno de aprendizaje inicial.
 
+## 📸 Galería del Proyecto
+
+### 1. Backend y Persistencia de Datos (SQLite)
+Antes de iniciar la aplicación, podemos verificar que los datos se cargan correctamente desde la base de datos local.
+<p align="center">
+  <img src="./capturas/Partidos.png" width="45%" alt="Tabla de Partidos en BD"/>
+  <img src="./capturas/Zonas.png" width="45%" alt="Tabla de Zonas en BD"/>
+</p>
+<p align="center">
+  <img src="./capturas/Socios.png" width="60%" alt="Tabla de Socios en BD"/>
+</p>
+> *Vista de las tablas 'Partido', 'Zona' y 'Socio' con los datos persistentes.*
+
+---
+
+### 2. Flujo de Usuario: Selección de Evento
+El usuario navega por las competiciones y selecciona el partido deseado.
+<p align="center">
+  <img src="./capturas/Principal.png" width="45%" alt="Menú Principal"/>
+  <img src="./capturas/SeleccionPartido.png" width="45%" alt="Selección de Rival"/>
+</p>
+
+---
+
+### 3. Lógica de Negocio: Gestión de Socios
+El sistema detecta si el usuario es socio para aplicar descuentos. Si no lo es, ofrece la posibilidad de registrarse.
+<p align="center">
+  <img src="./capturas/OpcionSocio.png" width="30%" alt="Pregunta Socio"/>
+  <img src="./capturas/RegistroSocio1.png" width="30%" alt="Login Socio"/>
+  <img src="./capturas/RegistroSocio2.png" width="30%" alt="Password Socio"/>
+</p>
+> *Validación de credenciales contra la base de datos de Socios.*
+
+---
+
+### 4. Proceso de Compra
+Selección de localidad y tarifa. El aforo se actualiza en tiempo real.
+<p align="center">
+  <img src="./capturas/SeleccionZona.png" width="45%" alt="Selección de Zona"/>
+  <img src="./capturas/TipoEntrada.png" width="45%" alt="Tipos de Entrada"/>
+</p>
+
+---
+
+### 5. Resultado Final
+Generación automática del ticket de compra en formato texto.
+<p align="center">
+  <img src="./capturas/EjemploTicket.png" width="60%" alt="Ticket Generado"/>
+</p>
+
 ---
 *Desarrollado con 💚 y mucho Betis.*
